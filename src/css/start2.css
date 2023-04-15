@@ -1,0 +1,80 @@
+.first{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.carD{
+    text-align: center;
+    
+}
+.carD h3{
+    font-weight: 400;
+    color: blue;
+}
+#pay_method{
+    display: flex;
+    justify-content: space-between;
+    
+}
+form .one{
+    width: 70%;
+  
+    padding: 50px;
+
+
+}
+form .two{
+    width: 25%;
+    padding: 50px;
+
+
+}
+.one input{
+    padding: 10px 70px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    margin-left: 30px;
+}
+input[type="date"],[type="time"]{
+    padding: 10px 100px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    margin-left: 30px;
+}
+input[type="time"]{
+    padding: 10px 110px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    margin-left: 30px;
+}
+.two input{
+    padding: 10px 70px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    margin-left: 30px;
+}
+ .two button{
+    padding: 10px 70px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    margin-left: 30px;
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+}
+.two button:hover{
+    cursor: pointer;
+
+    background-color:green;
+    font: 25px;
+
+}
+form p{
+    text-align: center;
+    font: 120px;
+    margin-bottom: 50px;
+    color: blue;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
